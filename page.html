@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 
 <html>
-    <head><title>Random Quote Machine</title></head>
+    <head>
+        <title>Random Quote Machine</title>
+        <script src="https://use.fontawesome.com/711f3ec605.js"></script>
+    </head>
     <body>
-        <ul>
-            <h2>TODO:</h2>
-            <li>http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1</li>
-            <li>start doing things</li>
-            <li>move todo to trello</li>
-        </ul>
+        <div class="quote-machine">
+            <p class="quote-content"></p>
+            <p class="quote-title"></p>
+            <a class="twitter-share-button"><i class="fa fa-twitter"></i></a>
+            <button class="quote-btn">Get Quote</button>
+        </div>
+        
+        <script type="application/javascript" src="public/js/jquery-3.2.1.min.js"></script>
+        <script type="application/javascript" src="public/js/get-quote.js"></script>
     </body>
 </html>
